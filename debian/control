@@ -1,0 +1,15 @@
+Source: elm-misc
+Section: devel
+Priority: optional
+Maintainer: Jaehwan Kim <jae.hwan.kim@samsung.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.8.3
+
+Package: elm-misc
+Section: extra
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+#Depends: ${shlibs:Depends}, ${misc:Depends},
+Description: elementary configuration files.
+
+
