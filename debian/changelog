@@ -1,3 +1,11 @@
+elm-misc (0.1-6) unstable; urgency=low
+
+  * package
+  * Git: 165.213.180.234:/git/slp/pkgs/elm-misc
+  * Tag: elm-misc_0.1-6
+
+ -- Jaehwan Kim <jae.hwan.kim@samsung.com>  Mon, 20 Sep 2010 15:49:28 +0900
+
 elm-misc (0.1-5) unstable; urgency=low
 
   * change ELM_FPS from 100 to 6000 by nicesj
