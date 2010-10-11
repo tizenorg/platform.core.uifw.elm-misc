@@ -1,3 +1,11 @@
+elm-misc (0.1-8) unstable; urgency=low
+
+  * Added ELM_MODULES.
+  * Git: 165.213.180.234:/git/slp/pkgs/elm-misc
+  * Tag: elm-misc_0.1-8
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Mon, 11 Oct 2010 20:50:15 +0900
+
 elm-misc (0.1-7) unstable; urgency=low
 
   * package
