@@ -3,4 +3,3 @@ if [ ${USER} == "root" ]
 then
 	chown root:root /etc/profile.d/elm.sh
 fi
-chmod 700 /etc/profile.d/elm.sh
