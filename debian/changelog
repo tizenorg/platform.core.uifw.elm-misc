@@ -1,3 +1,11 @@
+elm-misc (0.1-11) unstable; urgency=low
+
+  * ELM_THUMBSCROLL_FRICTION=3.0 added for genlist scroll
+  * Git: 165.213.180.234:/git/slp/pkgs/elm-misc
+  * Tag: elm-misc_0.1-11
+
+ -- Seokjae Jeong <seok.j.jeong@samsung.com>  Tue, 26 Oct 2010 22:08:46 +0900
+
 elm-misc (0.1-10) unstable; urgency=low
 
   * [ELM_PASSWORD_SHOW_LAST_CHARACTER]- variable added.

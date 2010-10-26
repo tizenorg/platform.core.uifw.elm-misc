@@ -1,7 +1,7 @@
 Source: elm-misc
 Section: devel
 Priority: optional
-Maintainer: Jaehwan Kim <jae.hwan.kim@samsung.com>
+Maintainer: Jaehwan Kim <jae.hwan.kim@samsung.com>, Seokjae Jeong <seok.j.jeong@samsung.com>
 Uploaders: ChunEon Park <chuneon.park@samsung.com>, Juyung Seo <juyung.seo@samsung.com>
 Build-Depends: debhelper (>= 5)
 Standards-Version: 3.8.3
