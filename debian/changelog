@@ -1,3 +1,11 @@
+elm-misc (0.1-12) unstable; urgency=low
+
+  * ELM_LONGPRESS_TIMEOUT=0.5 is added
+  * Git: 165.213.180.234:/git/slp/pkgs/elm-misc
+  * Tag: elm-misc_0.1-12 
+
+ -- Seokjae Jeong <seok.j.jeong@samsung.com>  Thu, 25 Nov 2010 19:39:21 +0900
+
 elm-misc (0.1-11) unstable; urgency=low
 
   * ELM_THUMBSCROLL_FRICTION=3.0 added for genlist scroll
