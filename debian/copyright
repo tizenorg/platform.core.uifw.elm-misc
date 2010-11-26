@@ -1,16 +1,7 @@
-This is elm-misc and maintained by Jihoon Kim <jihoon48.kim@samsung.com>
-on Thu, 25 Mar 2010 16:36:00 +0900.
+Copyright (c) 2000 - 2010 Samsung Electronics Co., Ltd. All rights reserved.
 
-Copyright Holder:  Samsung Electronics
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License version 2.1.
 
-License:
-
-    (c) 2010 Samsung Electronics, Inc.
-    All rights reserved.
-
-    This software is the confidential and proprietary information
-    of Samsung Electronics, Inc. ("Confidential Information").  You
-    shall not disclose such Confidential Information and shall use
-    it only in accordance with the terms of the license agreement
-    you entered into with Samsung Electronics.
-
+The full text of the LGPL 2.1 can be found in
+/usr/share/common-licenses.
