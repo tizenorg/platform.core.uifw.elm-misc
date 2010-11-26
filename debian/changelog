@@ -1,3 +1,13 @@
+elm-misc (0.1-14) unstable; urgency=low
+
+  * Added AUTHORS, COPYING.
+  * Changed debian/copyright.
+  * Added Homepage to debian/control.
+  * Git: 165.213.180.234:/git/slp/pkgs/elm-misc
+  * Tag: elm-misc_0.1-14
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Fri, 26 Nov 2010 16:04:14 +0900
+
 elm-misc (0.1-13) unstable; urgency=low
 
   * repackaging for re-upload
