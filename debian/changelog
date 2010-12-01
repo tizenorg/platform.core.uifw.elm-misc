@@ -1,3 +1,11 @@
+elm-misc (0.1-15) unstable; urgency=low
+
+  * Removed ELM_FONT_PATH.
+  * Git: 165.213.180.234:/git/slp/pkgs/elm-misc
+  * Tag: elm-misc_0.1-15
+
+ -- Juyung Seo <juyung.seo@samsung.com>  Wed, 01 Dec 2010 11:16:37 +0900
+
 elm-misc (0.1-14) unstable; urgency=low
 
   * Added AUTHORS, COPYING.
