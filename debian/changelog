@@ -1,3 +1,19 @@
+elm-misc (0.1-20) unstable; urgency=low
+
+  * version up
+  * Git: 165.213.180.234:slp/pkgs/e/elm-misc
+  * Tag: elm-misc_0.1-20
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Mon, 31 Jan 2011 10:46:35 +0900
+
+elm-misc (0.1-19) unstable; urgency=low
+
+  * version up
+  * Git: 165.213.180.234:slp/pkgs/e/elm-misc
+  * Tag: elm-misc_0.1-19
+
+ -- Hyoyoung Chang <hyoyoung.chang@samsung.com>  Mon, 31 Jan 2011 10:43:08 +0900
+
 elm-misc (0.1-18) unstable; urgency=low
 
   * Update due toe elementary slp.cfg feature adoption.
