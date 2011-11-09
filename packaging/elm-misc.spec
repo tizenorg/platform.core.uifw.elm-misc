@@ -1,6 +1,6 @@
 
 Name:       elm-misc
-Summary:    Elementary config files
+Summary:    Elementary & Evas config files
 Version:    0.1
 Release:    1
 Group:      TO_BE/FILLED_IN
@@ -10,7 +10,7 @@ Source0:    elm-misc-%{version}.tar.bz2
 
 
 %description
-Elementary configuration files
+Elementary & Evas configuration files
 
 
 
@@ -27,7 +27,7 @@ Elementary configuration files
 rm -rf %{buildroot}
 %__mkdir_p %{buildroot}%{_sysconfdir}/profile.d
 %__cp etc/profile.d/elm.sh %{buildroot}%{_sysconfdir}/profile.d/elm.sh
-
+%__cp etc/profile.d/evas.sh %{buildroot}%{_sysconfdir}/profile.d/evas.sh
 
 
 
@@ -37,5 +37,6 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root,-)
 /etc/profile.d/elm.sh
+/etc/profile.d/evas.sh
 
 
