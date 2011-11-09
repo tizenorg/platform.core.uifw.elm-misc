@@ -1,3 +1,13 @@
+elm-misc (0.1-24) unstable; urgency=low
+
+  * Upload Package
+  * Important Changes
+        add evas.sh for evas ENV value
+  * Git: 165.213.180.234:/slp/pkgs/e/elm-misc
+  * Tag: elm-misc_0.1-24
+
+ -- Jiyoun Park <jy0703.park@samsung.com>  Wed, 09 Nov 2011 17:19:12 +0900
+
 elm-misc (0.1-23) unstable; urgency=low
 
   * Package Upload : for sync with elementary
