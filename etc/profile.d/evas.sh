@@ -1,0 +1,1 @@
+export EVAS_FONT_DPI=72
