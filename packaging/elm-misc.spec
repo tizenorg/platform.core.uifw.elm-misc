@@ -6,7 +6,7 @@ Release:    1
 Group:      TO_BE/FILLED_IN
 License:    TO BE FILLED IN
 BuildArch:  noarch
-Source0:    elm-misc-%{version}.tar.bz2
+Source0:    elm-misc-%{version}.tar.gz
 
 
 %description
@@ -16,7 +16,7 @@ Elementary & Evas configuration files
 
 
 %prep
-%setup -q -n %{name}
+%setup -q 
 
 
 %build
