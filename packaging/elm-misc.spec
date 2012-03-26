@@ -1,8 +1,8 @@
 #sbs-git:slp/pkgs/e/elm-misc elm-misc 0.1 9e25eb4b63eed4f5a01bd45518c6226f768292ca
 Name:       elm-misc
 Summary:    Elementary config files
-Version:    0.1
-Release:    23
+Version:    0.1.27
+Release:    1
 Group:      TO_BE/FILLED_IN
 License:    TO BE FILLED IN
 BuildArch:  noarch
