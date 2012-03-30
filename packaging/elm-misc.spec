@@ -4,7 +4,7 @@ Summary:    Elementary config files
 Version:    0.1.27
 Release:    1
 Group:      TO_BE/FILLED_IN
-License:    TO BE FILLED IN
+License:    LGPLv2.1
 BuildArch:  noarch
 Source0:    %{name}-%{version}.tar.gz
 
