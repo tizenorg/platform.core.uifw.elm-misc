@@ -1,3 +1,11 @@
+elm-misc (0.1.29) unstable; urgency=low
+
+  * Change ELM_PROFILE env name from slp to mobile
+  * Git: slp/pkgs/e/elm-misc
+  * Tag: elm-misc_0.1.29
+
+ -- Seunggyun Kim <sgyun.kim@samsung.com>  Thu, 31 May 2012 16:42:27 +0900
+
 elm-misc (0.1.28) unstable; urgency=low
 
   * Package Upload
