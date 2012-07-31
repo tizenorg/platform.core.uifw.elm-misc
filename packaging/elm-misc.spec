@@ -2,7 +2,7 @@
 Name:       elm-misc
 Summary:    Elementary config files
 Version:    0.1.30
-Release:    1
+Release:    2
 Group:      TO_BE/FILLED_IN
 License:    LGPLv2.1
 BuildArch:  noarch
