@@ -7,6 +7,7 @@ Group:      TO_BE/FILLED_IN
 License:    LGPLv2.1
 BuildArch:  noarch
 Source0:    %{name}-%{version}.tar.gz
+Source1001: 	elm-misc.manifest
 
 
 %description
@@ -15,6 +16,7 @@ Elementary configuration files
 
 %prep
 %setup -q
+cp %{SOURCE1001} .
 
 
 %build
@@ -33,6 +35,7 @@ chown root:root /etc/profile.d/evas.sh
 
 
 %files
+%manifest %{name}.manifest
 %defattr(-,root,root,-)
 /etc/profile.d/*
 /usr/share/license/%{name}
