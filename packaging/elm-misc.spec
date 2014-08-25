@@ -1,13 +1,14 @@
-#sbs-git:slp/pkgs/e/elm-misc elm-misc 0.1 9e25eb4b63eed4f5a01bd45518c6226f768292ca
+%bcond_with wayland
+
 Name:       elm-misc
 Summary:    Elementary config files
 Version:    0.1.31
-Release:    1
-Group:      TO_BE/FILLED_IN
-License:    LGPLv2.1
+Release:    0
+Group:      Graphics & UI Framework/Development
+License:    LGPL-2.1
 BuildArch:  noarch
 Source0:    %{name}-%{version}.tar.gz
-Source1001: 	elm-misc.manifest
+Source1001: elm-misc.manifest
 
 
 %description
@@ -26,10 +27,16 @@ cp %{SOURCE1001} .
 rm -rf %{buildroot}
 %__mkdir_p %{buildroot}%{_sysconfdir}/profile.d
 %__cp etc/profile.d/* %{buildroot}%{_sysconfdir}/profile.d/
-mkdir -p %{buildroot}/usr/share/license
-cp %{_builddir}/%{buildsubdir}/COPYING %{buildroot}/usr/share/license/%{name}
 
 %post
+
+%if %{with wayland}
+f="/etc/profile.d/elm.sh"
+grep --silent ELM_ENGINE "$f" \
+    || printf "\nELM_ENGINE=wayland_shm\n[ ! -d /dev/dri ] || ELM_ENGINE=wayland_egl\nexport ELM_ENGINE" >> "$f"
+
+%endif
+
 chown root:root /etc/profile.d/elm.sh
 chown root:root /etc/profile.d/evas.sh
 
@@ -37,7 +44,8 @@ chown root:root /etc/profile.d/evas.sh
 %files
 %manifest %{name}.manifest
 %defattr(-,root,root,-)
-/etc/profile.d/*
-/usr/share/license/%{name}
+%license COPYING
+%{_sysconfdir}/profile.d/*
+
 
 
